@@ -1,4 +1,5 @@
 # FilaMagic
+![Website Preview](preview.png)
 
 **Developed by Kyler Tran - 2023**
 
