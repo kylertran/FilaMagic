@@ -1,0 +1,38 @@
+color,brand,material,remaining,temperature,loaded
+#ADD8E6,Hatchbox,PLA,600g,205c,Yes
+#FF0000,Prusament,ABS,400g,230c,No
+#000000,XYZprinting,PETG,300g,240c,No
+#FFFFFF,AmazonBasics,PLA,700g,200c,Yes
+#FFFF00,Sunlu,TPU,500g,220c,No
+#008000,Polymaker,PLA,250g,210c,No
+#FFA500,ColorFabb,ABS,350g,235c,No
+#800080,MakerBot,PLA,100g,195c,Yes
+#FFD700,Proto-pasta,PLA,900g,210c,No
+#808080,Ultimaker,PETG,200g,240c,Yes
+#A52A2A,3D Solutech,ABS,450g,230c,No
+#FFC0CB,Creality,PLA,750g,205c,Yes
+#008080,Monoprice,TPU,300g,220c,No
+#BCD2EE,AmazonBasics,PETG,650g,215c,Yes
+#DC143C,XYZprinting,PLA,550g,198c,No
+#2F4F4F,Prusament,TPU,450g,225c,Yes
+#DAA520,ColorFabb,PLA,800g,202c,No
+#FF69B4,Hatchbox,ABS,350g,238c,Yes
+#4B0082,Monoprice,PETG,250g,242c,No
+#B22222,Proto-pasta,PLA,950g,208c,Yes
+#20B2AA,Ultimaker,ABS,150g,232c,No
+#FFDAB9,3D Solutech,TPU,400g,218c,Yes
+#8A2BE2,Creality,PLA,850g,199c,No
+#5F9EA0,Polymaker,ABS,300g,236c,Yes
+#FA8072,MakerBot,PETG,100g,244c,No
+#7FFFD4,XYZprinting,PLA,650g,210c,Yes
+#FF6347,Prusament,ABS,420g,228c,No
+#40E0D0,AmazonBasics,TPU,480g,216c,Yes
+#FF4500,ColorFabb,PLA,780g,204c,No
+#DA70D6,Hatchbox,ABS,320g,237c,Yes
+#4682B4,Monoprice,PETG,270g,241c,No
+#6A5ACD,Proto-pasta,PLA,920g,209c,Yes
+#8B4513,Ultimaker,ABS,140g,231c,No
+#DB7093,3D Solutech,TPU,390g,219c,Yes
+#FFDEAD,Creality,PLA,840g,200c,No
+#B0E0E6,Polymaker,ABS,310g,235c,Yes
+#FFB6C1,MakerBot,PETG,110g,243c,No

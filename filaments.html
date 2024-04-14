@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FilaMagic - Filament</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/nav.css">
+    <link rel="stylesheet" href="stylesheets/mobile.css">
+    <div id="header"></div>
+</head>
+<body>
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <!-- Main Content -->
+    <main id="main-container">
+        <div id="button-container">
+            <button onclick="clearData()">Clear Filaments</button>
+            <button onclick="downloadCSV()">Export to CSV</button>
+            <button onclick="window.print()">Print</button>
+            <button>Import from Amazon</button>
+            <button onclick="addDataFromCSV()">Import from CSV</button>
+            <button onclick="location.href='addFilament.html';">Add Filament</button>
+            <input type="text" placeholder="Search..">
+        </div>
+        <div id="content-container">
+            <div id="table-container">
+                <table id="filaTable">
+                    <thead>
+                        <tr>
+                          <th class="col1">Color<img class="sort-icon" src="images/sort-initial.png"></th>
+                          <th class="col2">Brand<img class="sort-icon" src="images/sort-initial.png"></th>
+                          <th class="col3">Material<img class="sort-icon" src="images/sort-initial.png"></th>
+                          <th class="col4">Remaining<img class="sort-icon" src="images/sort-initial.png"></th>
+                          <th class="col5">Temperature<img class="sort-icon" src="images/sort-initial.png"></th>
+                          <th class="col6">Loaded<img class="sort-icon" src="images/sort-initial.png"></th>
+                        </tr>
+                      </thead>              
+                  <tbody>
+                    <!-- Empty tbody to populate with JavaScript -->
+                  </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="scripts/addFrame.js"></script>
+    <script src="scripts/createTable.js"></script>
+    <script src="scripts/sortTable.js"></script>
+    <script src="scripts/importCSV.js"></script>
+    <script src="scripts/exportCSV.js"></script>
+    <script src="scripts/scrollToTop.js"></script>
+</body>
+</html>

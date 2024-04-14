@@ -1,0 +1,96 @@
+/* Mobile Styles */
+@media only screen and (max-width: 1000px) {
+    #content-container {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Make buttons larger and centered */
+    #button-container button, input {
+      width: 100%;
+      height: 60px;
+      font-size: 18px;
+      float: none;
+      margin-bottom: 10px;
+    }
+  
+    /* Center header text */
+    header h1, header p {
+      font-size: 24px !important;
+      text-align: center;
+    }
+  
+    body p{
+      font-size: 30px !important; /* Adjust as needed */
+    }
+    body h1 {
+      font-size: 38px !important;
+    }
+  
+    body h2 {
+      font-size: 32px !important;
+    }
+  
+    body li {
+      font-size: 28px !important;
+    }
+  
+    button {
+      font-size: 28px !important;
+    }
+  
+    label, h3 {
+      font-size: 24px !important;
+    }
+  
+    th {
+      font-size: 22px !important;
+    }
+  
+    td {
+      font-size: 18px !important;
+    }
+
+    form {
+      max-width: 100%;
+      margin: 5px;
+    }
+
+    /* Hide all navigation items */
+      nav ul li:not(.active) {
+        display: none;
+    }
+
+    /* Show the menu icon */
+    #menu-icon {
+      display: inline-block;
+    }
+
+    /* Style for the active page (you can adjust this as needed) */
+    nav ul {
+      display: inline-block;
+    }
+
+    nav {
+      display: flex; /* Make nav a flex container */
+      justify-content: space-between; /* Space out the children (menu-icon and ul) */
+      align-items: center; /* Vertically align the children */
+    }
+    
+    nav ul {
+        flex-grow: 1; /* Allow the ul to grow and take up the available space */
+        display: flex; /* Make ul a flex container */
+        justify-content: space-between; /* Space out the list items */
+    }
+
+    input[type="text"],
+    input[type="number"]
+    {
+      width: 95%;
+    }
+}

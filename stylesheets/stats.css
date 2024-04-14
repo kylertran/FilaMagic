@@ -1,0 +1,26 @@
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content-container */
+}
+
+#content-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow the child elements to wrap to the next line if there's not enough space */
+    justify-content: center; /* Horizontally center the child containers */
+    gap: 20px; /* Add some space between the chart containers */
+}
+
+/* Each individual chart container */
+#filamentRemaining-container, #brands-container, #materials-container {
+    padding-bottom: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content vertically */
+    min-width: 400px;
+}
+
+h3 {
+    padding: 10px;
+}

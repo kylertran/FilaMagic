@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FilaMagic - Calculate Filament Cost</title>
+    <link rel="stylesheet" href="stylesheets/forms.css">
+    <link rel="stylesheet" href="stylesheets/nav.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/mobile.css">
+    <div id="header"></div>
+</head>
+<body>
+    <main>
+        <h2>Calculate Filament Cost</h2>
+
+        <form id="calculate-cost-form">
+            <div>
+                <label for="cost">Filament Cost per KG:</label>
+                <input type="number" id="cost" name="cost" required>
+            </div>
+
+            <div>
+            <label for="weight">Model Weight (g):</label>
+            <input type="number" id="weight" name="weight" required>
+            </div>
+
+            <button type="button" id="calculate">Calculate Cost</button>
+        </form>
+        <center>
+        <div id="result" style="display: inline-block; font-weight: bold;"></div>
+        </center>
+    </main>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="scripts/calculate.js"></script>
+  <script src="scripts/addFrame.js"></script>
+</body>
+</html>

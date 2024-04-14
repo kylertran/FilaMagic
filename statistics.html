@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SlicerGauge - Comparison Table</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/nav.css">
+    <link rel="stylesheet" href="stylesheets/stats.css">
+    <link rel="stylesheet" href="stylesheets/mobile.css">
+    <div id="header"></div>
+</head>
+<body>
+
+    <!-- Main Content -->
+    <main id="main-container">
+        <div id="content-container">
+            <div id="filamentRemaining-container">
+                <canvas id="filamentRemainingChart" width="200px" height="200px"></canvas>
+            </div>
+            <div id="brands-container">
+                <canvas id="brandsChart" width="200" height="200"></canvas>
+            </div>
+            <div id="materials-container">
+                <canvas id="materialsChart" width="200" height="200"></canvas> 
+            </div>           
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts/addFrame.js"></script>
+    <script src="scripts/makeCharts.js"></script>
+</body>
+</html>
