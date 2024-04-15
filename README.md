@@ -1,7 +1,7 @@
 # FilaMagic
 ![Website Preview](preview.png)
 
-**Developed by Kyler Tran - 2023**
+**Copyright &copy; 2023 Kyler Tran**
 
 FilaMagic is a user-friendly web application designed to help 3D printing enthusiasts and professionals manage their filament inventory effectively. With FilaMagic, you can track various attributes of your 3D printer filaments, such as material, color, brand, ideal print settings, and remaining weight, all from one convenient online platform.
 
@@ -16,8 +16,7 @@ FilaMagic is a user-friendly web application designed to help 3D printing enthus
 
 - All data is stored locally in your browser's cache; no personal data is sent to or stored on our servers.
 
-## Support
+## Contact
+Kyler Tran  
+**Email**: [kylerzinbox@gmail.com](mailto:kylerzinbox@gmail.com)
 
-For support, feature requests, or to report a bug, please contact:
-**Developer**: Kyler Tran  
-Email: [kylerzinbox@gmail.com](mailto:kylerzinbox@gmail.com)
