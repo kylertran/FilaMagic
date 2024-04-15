@@ -18,5 +18,5 @@ FilaMagic is a user-friendly web application designed to help 3D printing enthus
 
 ## Contact
 Kyler Tran  
-**Email**: [kylerzinbox@gmail.com](mailto:kylerzinbox@gmail.com)
+**Email**: [contact@kylertran.com](mailto:contact@kylertran.com)
 
